@@ -9,7 +9,7 @@ import java.util.Map;
 @Service
 public class MovieService {
 
-    private final String API_KEY = "d5e1c8ae861af749b74b4de0adb15a74";
+    private final String API_KEY = "Your_API_key";
     private final String BASE_URL = "https://api.themoviedb.org/3/movie/popular";
 
     public List<Map<String, Object>> getMovies() {
